@@ -1,0 +1,50 @@
+#!/bin/bash
+#SET ONE
+sed -i 's/bind j /bind cPLACEHOLDER /g' $1
+sed -i 's/bind h /bind j /g' $1
+sed -i 's/bind d /bind h /g' $1
+sed -i 's/bind e /bind d /g' $1
+sed -i 's/bind period /bind e /g' $1
+sed -i 's/bind v /bind period /g' $1
+sed -i 's/bind k /bind v /g' $1
+sed -i 's/bind t /bind k /g' $1
+sed -i 's/bind y /bind t /g' $1
+sed -i 's/bind f /bind y /g' $1
+sed -i 's/bind u /bind f /g' $1
+sed -i 's/bind g /bind u /g' $1
+sed -i 's/bind I /bind g /g' $1
+sed -i 's/bind c /bind I /g' $1
+sed -i 's/bind cPLACEHOLDER /bind c/g' $1
+#unnecessary
+sed -i 's/bind a /bind a /g' $1
+sed -i 's/bind m /bind m /g' $1
+# SET TWO
+sed -i 's/bind z /bind backslash /g' $1
+sed -i 's/bind semicolon /bind z /g' $1
+sed -i 's/bind s /bind semicolon /g' $1
+sed -i 's/bind o /bind s /g' $1
+sed -i 's/bind r /bind o /g' $1
+sed -i 's/bind p /bind r /g' $1
+sed -i 's/bind l  /bind p /g' $1
+sed -i 's/bind n /bind l /g' $1
+sed -i 's/bind b /bind n /g' $1
+sed -i 's/bind x /bind b /g' $1
+sed -i 's/bind q /bind x /g' $1
+sed -i 's/bind quote /bind q /g' $1
+#begin special flips
+#w/comma
+sed -i 's/bind w /bind commaPLACEHOLDER /g' $1
+sed -i 's/bind comma /bind w /g' $1
+sed -i 's/bind commaPLACEHOLDER /bind comma /g' $1
+#brackets
+sed -i 's/bind leftbracket /bind minusPLACEHOLDER /g' $1
+sed -i 's/bind rightbracket /bind equalsPLACEHOLDER /g' $1
+sed -i 's/bind slash /bind leftbracket /g' $1
+sed -i 's/bind equals /bind rightbracket /g' $1
+sed -i 's/bind equalsPLACEHOLDER /bind equals /g' $1
+sed -i 's/bind minus /bind quote /g' $1
+sed -i 's/bind minusPLACEHOLDER /bind minus /g' $1
+#j,c,i
+
+
+
